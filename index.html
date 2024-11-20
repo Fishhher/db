@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinker School</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container flex-container">
+            <div class="logo">
+                <h1>Thinker</h1>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="{{ url_for('static', filename='img/123.jpg') }}" alt="Study Japanese Abroad" class="background-img">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>THINKER SCHOOL</h1>
+            <h2>STUDY JAPANESE ABROAD</h2>
+            <p>Join us at Thinker School to learn Japanese while exploring the culture of Japan. A perfect blend of education and adventure awaits you!</p>
+            <a href="/register" class="cta-button">Start a Course</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Thinker School. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Thinker School</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='aboutstyles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container flex-container">
+            <div class="logo">
+                <h1>Thinker School</h1>
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="about-section">
+        <img src="{{ url_for('static', filename='img/1234.jpg') }}" alt="background" class="background-img">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Welcome to Thinker School, a platform dedicated to unlocking global learning opportunities through immersive and innovative educational experiences. Our mission is to provide high-quality education that prepares students for both personal and academic success, wherever their ambitions may take them.</p>
+
+            <h2>Our Mission</h2>
+            <p>At Thinker School, we believe that education is a key to empowerment. Our mission is to connect students from all corners of the world to leading educational programs that promote intellectual curiosity, cultural exchange, and personal growth. We strive to foster a community where students are encouraged to think critically, embrace diverse perspectives, and pursue lifelong learning.</p>
+
+            <h2>Why Choose Thinker School?</h2>
+            <ul>
+                <li><strong>Innovative Curriculum:</strong> We offer a wide variety of courses, from language learning to professional development, all designed to equip students with the skills they need to succeed in today’s world.</li>
+                <li><strong>Global Experience:</strong> Our programs provide students with opportunities to study abroad, experience different cultures, and gain international perspectives on their chosen subjects.</li>
+                <li><strong>Flexible Learning:</strong> Whether you prefer online or in-person classes, our flexible learning environment allows students to tailor their education to their specific needs and schedules.</li>
+                <li><strong>Expert Instructors:</strong> Our team of highly qualified and experienced educators is committed to delivering engaging and impactful learning experiences.</li>
+            </ul>
+
+            <h2>Our Story</h2>
+            <p>Founded in 2024, Thinker School was born out of a desire to provide students with access to a world-class education, regardless of geographical or financial barriers. Our founders, a group of passionate educators and technologists, recognized the growing demand for flexible and accessible learning platforms. Through Thinker School, they sought to create a dynamic space where students could explore new ideas, collaborate with peers from around the globe, and unlock their full potential.</p>
+
+            <h2>Our Values</h2>
+            <p>We are committed to building a learning environment that is:</p>
+            <ul>
+                <li><strong>Inclusive:</strong> We embrace diversity and create programs that are accessible to students from all backgrounds.</li>
+                <li><strong>Innovative:</strong> We leverage the latest technology to provide cutting-edge educational experiences.</li>
+                <li><strong>Supportive:</strong> Our team is dedicated to supporting our students every step of the way, from enrollment to graduation and beyond.</li>
+                <li><strong>Global:</strong> We offer programs that encourage students to think globally and act locally, preparing them for a connected world.</li>
+            </ul>
+
+            <h2>Join Our Community</h2>
+            <p>At Thinker School, education is more than just about earning a degree—it's about building a better future. Whether you're looking to enhance your professional skills, learn a new language, or simply explore new ideas, we invite you to join our community of thinkers and lifelong learners.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Thinker School. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
